@@ -28,9 +28,9 @@ class TCA9548A {
   public:
     TCA9548A(uint8_t i2c_bus, uint8_t i2c_addr = 0x70);
     ~TCA9548A();
-    void openChannel(uint8_t channel);
-    void closeChannel(uint8_t channel);
-    void closeAll();
+    int openChannel(uint8_t channel);
+    int closeChannel(uint8_t channel);
+    int closeAll();
 
   private:
     int fd;
