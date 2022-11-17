@@ -25,7 +25,7 @@ TCA9548A::TCA9548A(uint8_t i2c_bus, uint8_t i2c_addr) {
     }
 }
 
-int_least16_t TCA9548A::openChannel(uint8_t channel) {
+int TCA9548A::openChannel(uint8_t channel) {
     int buff = 0x00;
     buff = 1 << channel;
     this->_channels |= buff;
