@@ -14,15 +14,15 @@
 using namespace std;
 
 /* Channel hex values for writeRegister() function */
-#define TCA_CHANNEL_0              (0x00)
-#define TCA_CHANNEL_1              (0x01)
-#define TCA_CHANNEL_2              (0x02)
-#define TCA_CHANNEL_3              (0x04)
-#define TCA_CHANNEL_4              (0x08)
-#define TCA_CHANNEL_5              (0x10)
-#define TCA_CHANNEL_6              (0x20)
-#define TCA_CHANNEL_7              (0x40)
-#define TCA_CHANNEL_8              (0x80)
+#define TCA_CHANNEL_0              (0x00)   ///< TCA channel0 selection
+#define TCA_CHANNEL_1              (0x01)   ///< TCA channel1 selection
+#define TCA_CHANNEL_2              (0x02)   ///< TCA channel2 selection
+#define TCA_CHANNEL_3              (0x04)   ///< TCA channel3 selection
+#define TCA_CHANNEL_4              (0x08)   ///< TCA channel4 selection
+#define TCA_CHANNEL_5              (0x10)   ///< TCA channel5 selection
+#define TCA_CHANNEL_6              (0x20)   ///< TCA channel6 selection
+#define TCA_CHANNEL_7              (0x40)   ///< TCA channel7 selection
+#define TCA_CHANNEL_8              (0x80)   ///< TCA channel8 selection
 
 class TCA9548A {
   public:
