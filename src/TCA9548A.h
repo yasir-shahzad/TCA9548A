@@ -13,7 +13,7 @@
 
 using namespace std;
 
-/* Channel hex values for writeRegister() function */
+// Channel hex values for writeRegister()
 #define TCA_CHANNEL_0              (0x00)   ///< TCA channel0 selection
 #define TCA_CHANNEL_1              (0x01)   ///< TCA channel1 selection
 #define TCA_CHANNEL_2              (0x02)   ///< TCA channel2 selection
