@@ -7,7 +7,7 @@
 #include <linux/i2c.h>
 #include <stdint.h>
 #include <stdio.h>
-#include <string>
+#include <string.h>
 #include <sys/ioctl.h>
 #include <unistd.h>
 

@@ -12,16 +12,13 @@ TCA9548A::TCA9548A(uint8_t i2c_bus, uint8_t i2c_addr) {
     snprintf(device, sizeof(device), "/dev/i2c-%u", i2c_bus); // creating device address buffer
     if ((fd = open(device, O_RDWR)) < 0) {
         printf("File descriptor opening error %s\n", strerror(errno));
-        return -1;
     }
     else {
         if (ioctl(fd, I2C_SLAVE, address) < 0)
         {
             std::cout << "Open fd error" << errno << std::endl;
-            return -1;
         }
         printf("I2C connection established\n");
-        return 1;
     }
 }
 
