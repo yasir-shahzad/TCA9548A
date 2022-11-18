@@ -1,4 +1,4 @@
-#incldue "../src/TCA9548A.h"
+#include "../src/TCA9548A.h"
 
 TCA9548A SelectLoadCell(0, 0x71);
 
