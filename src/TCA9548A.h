@@ -1,3 +1,10 @@
+/** @file TCA9548A.h
+ * TCA9548A interface library for arduino framework
+ * Copyright (C)  Yasir Shahzad
+ *
+ * Distributed under the MIT license.
+ * For full terms see the file LICENSE.md.
+ */
 #ifndef _TCA9548A_H_
 #define _TCA9548A_H_
 
